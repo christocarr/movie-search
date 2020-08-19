@@ -10,7 +10,7 @@ body {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 small {
@@ -66,6 +66,30 @@ small {
 
 @media (min-width: 600px) {
   .form {
+    max-width: 600px;
+  }
+}
+
+/* Movie list */
+
+.movie__list {
+  display: grid;
+  list-style: none;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.movie__list-item {
+  max-width: 100%;
+}
+
+.movie__image {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .movie__list {
     max-width: 600px;
   }
 }
